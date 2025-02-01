@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Picture Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex; /* Flexbox to align cards side by side */
+            justify-content: space-between; /* Equal spacing between cards */
+            gap: 20px; /* Space between cards */
+        }
+
+        .card {
+            width: 400px; /* Fixed width for all cards */
+            border: 1px solid #ccc; /* Border around each card */
+            border-radius: 8px;
+            padding: 16px; /* Padding inside cards */
+            margin: 10px; /* Margin outside cards */
+            background-color: #fff;
+            text-align: center; /* Center text horizontally */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center content vertically */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for effect */
+        }
+
+        .card img {
+            width: 100%; /* Image takes full width of the card */
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            font-size: 1.2em;
+            margin: 10px 0 5px 0;
+        }
+
+        .card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1325029612/photo/aerial-view-of-island-baleal-naer-peniche-on-the-shore-of-the-ocean-in-west-coast-of-portugal.jpg?b=1&s=612x612&w=0&k=20&c=LSK9IMzORKv7B8gVgCVwYUc5yaOu2hBshC44s9jXVoo=" alt="Island View" />
+            <h2>Baleal, Portugal</h2>
+            <p>Cool place for a surfing vacation with surf schools and several bar-restaurants.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/12470912/pexels-photo-12470912.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dog 2" />
+            <h2>Canggu, Bali</h2>
+            <p>Bali's heart of surf culture, boasting numerous board shops, laid-back bars. It’s also an ideal spot for beginner surfers.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/30472486/pexels-photo-30472486/free-photo-of-colorful-surfboards-on-batu-ferringhi-beach.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dog 3" />
+            <h2>Penang,Malaysia</h2>
+            <p>The most popular spot to surf is Kijal. There are fifteen other spots where you can go surfing in Malaysia.</p>
+        </div>
+    </div>
+</body>
+</html>
